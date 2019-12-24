@@ -12,6 +12,9 @@
 		1C5169C623B18DDF00445033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C5169C423B18DDF00445033 /* Main.storyboard */; };
 		1C5169C823B18DE200445033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C5169C723B18DE200445033 /* Assets.xcassets */; };
 		1C5169CB23B18DE200445033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C5169C923B18DE200445033 /* LaunchScreen.storyboard */; };
+		1C5169D423B19EED00445033 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5169D323B19EED00445033 /* AVFoundation.framework */; };
+		1C5169D623B19EFD00445033 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5169D523B19EFD00445033 /* Photos.framework */; };
+		1C5169D823B1C78E00445033 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5169D723B1C78E00445033 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		1C5169C723B18DE200445033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C5169CA23B18DE200445033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C5169CC23B18DE200445033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C5169D323B19EED00445033 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1C5169D523B19EFD00445033 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		1C5169D723B1C78E00445033 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5169D823B1C78E00445033 /* AssetsLibrary.framework in Frameworks */,
+				1C5169D623B19EFD00445033 /* Photos.framework in Frameworks */,
+				1C5169D423B19EED00445033 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,7 @@
 			children = (
 				1C5169BF23B18DDF00445033 /* MoveCapture */,
 				1C5169BE23B18DDF00445033 /* Products */,
+				1C5169D223B19EED00445033 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +72,16 @@
 				1C5169CC23B18DE200445033 /* Info.plist */,
 			);
 			path = MoveCapture;
+			sourceTree = "<group>";
+		};
+		1C5169D223B19EED00445033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C5169D723B1C78E00445033 /* AssetsLibrary.framework */,
+				1C5169D523B19EFD00445033 /* Photos.framework */,
+				1C5169D323B19EED00445033 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
