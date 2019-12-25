@@ -26,6 +26,10 @@
 	<string>Main</string>
 	<key>NSCameraUsageDescription</key>
 	<string>カメラを使う</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>マイクを使う</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>フォトライブラリーを使う</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
